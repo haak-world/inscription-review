@@ -29,6 +29,12 @@ nav { padding: 16px 28px; display: flex; justify-content: space-between; align-i
 }
 .nav-links a:hover, .nav-links button:hover { color: var(--gold); }
 
+.back-link {
+  display: inline-block; font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px; letter-spacing: 0.08em; color: var(--silver); padding: 0;
+}
+.back-link:hover { color: var(--gold); }
+
 .epigraph {
   text-align: center; padding: 12px 28px 0;
   font-family: 'Instrument Serif', serif; font-style: italic;
@@ -174,7 +180,7 @@ footer { border-top: 1px solid var(--line2); padding: 20px 28px;
 </head>
 <body>
 <nav>
-  <a href="../" class="nav-home">HAAK</a>
+  <a href="/inscription/" class="back-link">&larr; inscription</a>
   <div class="nav-links"><a href="#genealogy">genealogy</a></div>
 </nav>
 
